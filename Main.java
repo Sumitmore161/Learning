@@ -1,6 +1,8 @@
 
 import java.sql.SQLOutput;
 import java.util.Scanner;
+
+
 public class Main {
     public static void main(String[] args) {
 
@@ -14,5 +16,11 @@ public class Main {
         float marks = 45.67f;
         int rollno = input.nextInt();
         System.out.println("Your roll number is "+ rollno);
+        int a = input.nextInt();
+        int b= input.nextInt();
+        float c = input.nextFloat();
+        char string[];
+        System.out.println(input.nextLine());
+        System.out.println(" a = b = c =  "+ a + b + c);
     }
 }
